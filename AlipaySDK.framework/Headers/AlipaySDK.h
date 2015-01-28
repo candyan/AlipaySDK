@@ -6,7 +6,12 @@
 //  Copyright (c) 2014年 Alipay. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+
+////////////////////////////////////////////////////////
+////////////////version：2.0  date：2014.10.22///////////
+////////////////////////////////////////////////////////
+
+
 #import "APayAuthInfo.h"
 
 typedef void(^CompletionBlock)(NSDictionary *resultDic);
@@ -38,7 +43,7 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
  *  @param resultUrl 支付结果url，传入后由SDK解析，统一在上面的pay方法的callback中回调
  *  @param completionBlock 跳钱包支付结果回调，保证跳转钱包支付过程中，即使调用方app被系统kill时，能通过这个回调取到支付结果。
  */
-- (void)processOderWithPaymentResult:(NSURL *)resultUrl standbyCallback:(CompletionBlock)completionBlock;
+- (void)processOrderWithPaymentResult:(NSURL *)resultUrl standbyCallback:(CompletionBlock)completionBlock;
 
 /**
  *  是否已经使用过
