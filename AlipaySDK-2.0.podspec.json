@@ -1,6 +1,6 @@
 {
   "name": "AlipaySDK-2.0",
-  "version": "2.0.3",
+  "version": "3.0.1",
   "summary": "Alipay SDK 2.0 for iOS.",
   "description": "支付宝移动支付 SDK 标准版 for iOS",
   "homepage": "https://b.alipay.com/newIndex.htm",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/candyan/AlipaySDK.git",
-    "tag": "2.0.3"
+    "tag": "3.0.1"
   },
   "resources": "AlipaySDK.bundle",
   "vendored_frameworks": "AlipaySDK.framework",
