@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755ABADE1BDA18A50011AE3F /* NSString+AlipaySigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */; settings = {ASSET_TAGS = (); }; };
+		75E1B2F61BD8C80D006EF44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B2F51BD8C80D006EF44D /* AppDelegate.swift */; };
+		75E1B2F81BD8C80D006EF44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B2F71BD8C80D006EF44D /* ViewController.swift */; };
+		75E1B2FB1BD8C80D006EF44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2F91BD8C80D006EF44D /* Main.storyboard */; };
+		75E1B2FD1BD8C80D006EF44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2FC1BD8C80D006EF44D /* Assets.xcassets */; };
+		75E1B3001BD8C80D006EF44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2FE1BD8C80D006EF44D /* LaunchScreen.storyboard */; };
+		75E1B30B1BD8C80D006EF44D /* AlipayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B30A1BD8C80D006EF44D /* AlipayDemoTests.swift */; };
+		75E1B31C1BD8DCF5006EF44D /* NSString+AlipayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */; settings = {ASSET_TAGS = (); }; };
+		83B6B701006331C92D08D1F0 /* libPods-AlipayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D51CBAE9B39F4858D2BAC /* libPods-AlipayDemo.a */; };
+		959DDBFBF8C1663D8B75E8C9 /* libPods-AlipayDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE14CC2CE12FDE234E197902 /* libPods-AlipayDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75E1B3071BD8C80D006EF44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75E1B2EA1BD8C80C006EF44D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75E1B2F11BD8C80C006EF44D;
+			remoteInfo = AlipayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A8D51CBAE9B39F4858D2BAC /* libPods-AlipayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlipayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755ABADC1BDA18A50011AE3F /* NSString+AlipaySigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipaySigner.h"; sourceTree = "<group>"; };
+		755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipaySigner.m"; sourceTree = "<group>"; };
+		75E1B2F21BD8C80C006EF44D /* AlipayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E1B2F51BD8C80D006EF44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75E1B2F71BD8C80D006EF44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75E1B2FA1BD8C80D006EF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75E1B2FC1BD8C80D006EF44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75E1B2FF1BD8C80D006EF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75E1B3011BD8C80D006EF44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E1B3061BD8C80D006EF44D /* AlipayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E1B30A1BD8C80D006EF44D /* AlipayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayDemoTests.swift; sourceTree = "<group>"; };
+		75E1B30C1BD8C80D006EF44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75E1B3161BD8DC8D006EF44D /* AlipayDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlipayDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		75E1B31A1BD8DCF5006EF44D /* NSString+AlipayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipayOrder.h"; sourceTree = "<group>"; };
+		75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipayOrder.m"; sourceTree = "<group>"; };
+		8687300A9DC81DF49D2374E4 /* Pods-AlipayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6D6F6015E8CBD0D875E3A0D /* Pods-AlipayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B73C687E48188174830531F8 /* Pods-AlipayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemo/Pods-AlipayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BE14CC2CE12FDE234E197902 /* libPods-AlipayDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlipayDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDEE85DE660E403EEDFE23D /* Pods-AlipayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemo/Pods-AlipayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75E1B2EF1BD8C80C006EF44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B6B701006331C92D08D1F0 /* libPods-AlipayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E1B3031BD8C80D006EF44D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959DDBFBF8C1663D8B75E8C9 /* libPods-AlipayDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41F1E3485360E6FF0BF1168A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEDEE85DE660E403EEDFE23D /* Pods-AlipayDemo.debug.xcconfig */,
+				B73C687E48188174830531F8 /* Pods-AlipayDemo.release.xcconfig */,
+				B6D6F6015E8CBD0D875E3A0D /* Pods-AlipayDemoTests.debug.xcconfig */,
+				8687300A9DC81DF49D2374E4 /* Pods-AlipayDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75E1B2E91BD8C80C006EF44D = {
+			isa = PBXGroup;
+			children = (
+				75E1B2F41BD8C80C006EF44D /* AlipayDemo */,
+				75E1B3091BD8C80D006EF44D /* AlipayDemoTests */,
+				75E1B2F31BD8C80C006EF44D /* Products */,
+				41F1E3485360E6FF0BF1168A /* Pods */,
+				A0BCF021C035005A2DF62D9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75E1B2F31BD8C80C006EF44D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75E1B2F21BD8C80C006EF44D /* AlipayDemo.app */,
+				75E1B3061BD8C80D006EF44D /* AlipayDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75E1B2F41BD8C80C006EF44D /* AlipayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75E1B3151BD8D649006EF44D /* sources */,
+				75E1B2F51BD8C80D006EF44D /* AppDelegate.swift */,
+				75E1B2F71BD8C80D006EF44D /* ViewController.swift */,
+				75E1B2F91BD8C80D006EF44D /* Main.storyboard */,
+				75E1B2FC1BD8C80D006EF44D /* Assets.xcassets */,
+				75E1B3161BD8DC8D006EF44D /* AlipayDemo-Bridging-Header.h */,
+				75E1B2FE1BD8C80D006EF44D /* LaunchScreen.storyboard */,
+				75E1B3011BD8C80D006EF44D /* Info.plist */,
+			);
+			path = AlipayDemo;
+			sourceTree = "<group>";
+		};
+		75E1B3091BD8C80D006EF44D /* AlipayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				75E1B30A1BD8C80D006EF44D /* AlipayDemoTests.swift */,
+				75E1B30C1BD8C80D006EF44D /* Info.plist */,
+			);
+			path = AlipayDemoTests;
+			sourceTree = "<group>";
+		};
+		75E1B3151BD8D649006EF44D /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				75E1B31A1BD8DCF5006EF44D /* NSString+AlipayOrder.h */,
+				75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */,
+				755ABADC1BDA18A50011AE3F /* NSString+AlipaySigner.h */,
+				755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */,
+			);
+			name = sources;
+			path = ../../sources;
+			sourceTree = "<group>";
+		};
+		A0BCF021C035005A2DF62D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A8D51CBAE9B39F4858D2BAC /* libPods-AlipayDemo.a */,
+				BE14CC2CE12FDE234E197902 /* libPods-AlipayDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75E1B2F11BD8C80C006EF44D /* AlipayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E1B30F1BD8C80D006EF44D /* Build configuration list for PBXNativeTarget "AlipayDemo" */;
+			buildPhases = (
+				28A08069D5084EC67321DA07 /* Check Pods Manifest.lock */,
+				75E1B2EE1BD8C80C006EF44D /* Sources */,
+				75E1B2EF1BD8C80C006EF44D /* Frameworks */,
+				75E1B2F01BD8C80C006EF44D /* Resources */,
+				133A79330E64AE4B0E6E0E59 /* Embed Pods Frameworks */,
+				56AEA0FB3A5C13A28B547000 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlipayDemo;
+			productName = AlipayDemo;
+			productReference = 75E1B2F21BD8C80C006EF44D /* AlipayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75E1B3051BD8C80D006EF44D /* AlipayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75E1B3121BD8C80D006EF44D /* Build configuration list for PBXNativeTarget "AlipayDemoTests" */;
+			buildPhases = (
+				607B16D146C0ABD7A674A316 /* Check Pods Manifest.lock */,
+				75E1B3021BD8C80D006EF44D /* Sources */,
+				75E1B3031BD8C80D006EF44D /* Frameworks */,
+				75E1B3041BD8C80D006EF44D /* Resources */,
+				8760FAB2BF07FBC2DB2BC666 /* Embed Pods Frameworks */,
+				C89EFD3E352DE2565A645BC7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75E1B3081BD8C80D006EF44D /* PBXTargetDependency */,
+			);
+			name = AlipayDemoTests;
+			productName = AlipayDemoTests;
+			productReference = 75E1B3061BD8C80D006EF44D /* AlipayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75E1B2EA1BD8C80C006EF44D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Candyan;
+				TargetAttributes = {
+					75E1B2F11BD8C80C006EF44D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					75E1B3051BD8C80D006EF44D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 75E1B2F11BD8C80C006EF44D;
+					};
+				};
+			};
+			buildConfigurationList = 75E1B2ED1BD8C80C006EF44D /* Build configuration list for PBXProject "AlipayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75E1B2E91BD8C80C006EF44D;
+			productRefGroup = 75E1B2F31BD8C80C006EF44D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75E1B2F11BD8C80C006EF44D /* AlipayDemo */,
+				75E1B3051BD8C80D006EF44D /* AlipayDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75E1B2F01BD8C80C006EF44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1B3001BD8C80D006EF44D /* LaunchScreen.storyboard in Resources */,
+				75E1B2FD1BD8C80D006EF44D /* Assets.xcassets in Resources */,
+				75E1B2FB1BD8C80D006EF44D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E1B3041BD8C80D006EF44D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133A79330E64AE4B0E6E0E59 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayDemo/Pods-AlipayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28A08069D5084EC67321DA07 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56AEA0FB3A5C13A28B547000 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayDemo/Pods-AlipayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		607B16D146C0ABD7A674A316 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8760FAB2BF07FBC2DB2BC666 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89EFD3E352DE2565A645BC7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75E1B2EE1BD8C80C006EF44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1B31C1BD8DCF5006EF44D /* NSString+AlipayOrder.m in Sources */,
+				755ABADE1BDA18A50011AE3F /* NSString+AlipaySigner.m in Sources */,
+				75E1B2F81BD8C80D006EF44D /* ViewController.swift in Sources */,
+				75E1B2F61BD8C80D006EF44D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75E1B3021BD8C80D006EF44D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E1B30B1BD8C80D006EF44D /* AlipayDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75E1B3081BD8C80D006EF44D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75E1B2F11BD8C80C006EF44D /* AlipayDemo */;
+			targetProxy = 75E1B3071BD8C80D006EF44D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75E1B2F91BD8C80D006EF44D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E1B2FA1BD8C80D006EF44D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75E1B2FE1BD8C80D006EF44D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75E1B2FF1BD8C80D006EF44D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75E1B30D1BD8C80D006EF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75E1B30E1BD8C80D006EF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75E1B3101BD8C80D006EF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEDEE85DE660E403EEDFE23D /* Pods-AlipayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AlipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candyan.AlipayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlipayDemo/AlipayDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75E1B3111BD8C80D006EF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73C687E48188174830531F8 /* Pods-AlipayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AlipayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candyan.AlipayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlipayDemo/AlipayDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		75E1B3131BD8C80D006EF44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D6F6015E8CBD0D875E3A0D /* Pods-AlipayDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlipayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candyan.AlipayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlipayDemo.app/AlipayDemo";
+			};
+			name = Debug;
+		};
+		75E1B3141BD8C80D006EF44D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8687300A9DC81DF49D2374E4 /* Pods-AlipayDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AlipayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candyan.AlipayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlipayDemo.app/AlipayDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75E1B2ED1BD8C80C006EF44D /* Build configuration list for PBXProject "AlipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1B30D1BD8C80D006EF44D /* Debug */,
+				75E1B30E1BD8C80D006EF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E1B30F1BD8C80D006EF44D /* Build configuration list for PBXNativeTarget "AlipayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1B3101BD8C80D006EF44D /* Debug */,
+				75E1B3111BD8C80D006EF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75E1B3121BD8C80D006EF44D /* Build configuration list for PBXNativeTarget "AlipayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E1B3131BD8C80D006EF44D /* Debug */,
+				75E1B3141BD8C80D006EF44D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75E1B2EA1BD8C80C006EF44D /* Project object */;
+}

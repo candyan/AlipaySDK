@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'AlipayDemo' do
+
+pod 'OpenSSL'
+pod 'AlipaySDK-2.0', :path=>'~/github/candyan/AlipaySDK'
+pod 'PupaFoundation'
+
+end
+
+target 'AlipayDemoTests' do
+
+pod 'OpenSSL'
+pod 'PupaFoundation'
+
+end
+

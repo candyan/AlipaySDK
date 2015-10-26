@@ -1,0 +1,22 @@
+PODS:
+  - AlipaySDK-2.0 (3.0.1):
+    - AlipaySDK-2.0/Core (= 3.0.1)
+  - AlipaySDK-2.0/Core (3.0.1)
+  - OpenSSL (1.0.204.1)
+  - PupaFoundation (1.1.6)
+
+DEPENDENCIES:
+  - AlipaySDK-2.0 (from `~/github/candyan/AlipaySDK`)
+  - OpenSSL
+  - PupaFoundation
+
+EXTERNAL SOURCES:
+  AlipaySDK-2.0:
+    :path: ~/github/candyan/AlipaySDK
+
+SPEC CHECKSUMS:
+  AlipaySDK-2.0: 9b72071696532969dbedf87fd4155f37bf4fe79b
+  OpenSSL: 7f853fcada78e5162c2183b4d90ebbd0aa02f5ac
+  PupaFoundation: 2c132c6f43485e7cecf3b64ea0725274e64041b1
+
+COCOAPODS: 0.39.0
