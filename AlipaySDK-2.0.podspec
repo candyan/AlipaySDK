@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "AlipaySDK-2.0"
-  s.version           = "3.0.1.a"
+  s.version           = "3.0.1.1"
   s.summary           = "Alipay SDK for iOS. You can create alipay order or sign orders with `Order` subspec."
   s.homepage          = "https://b.alipay.com/newIndex.htm"
   s.license           = {
