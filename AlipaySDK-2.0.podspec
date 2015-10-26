@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "AlipaySDK-2.0"
-  s.version           = "3.0.1.2"
+  s.version           = "3.0.1.3"
   s.summary           = "Alipay SDK for iOS. You can create alipay order or sign orders with `Order` subspec."
   s.homepage          = "https://b.alipay.com/newIndex.htm"
   s.license           = {
@@ -19,13 +19,14 @@ Pod::Spec.new do |s|
   s.default_subspec   = 'Core'
 
   s.subspec "Core" do |core|
+    core.source_files = 'sources/extensions/ANAlipayResultCode.h'
     core.resources    = 'AlipaySDK.bundle'
     core.vendored_frameworks = 'AlipaySDK.framework'
-    core.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
+    core.public_header_files = 'AlipaySDK.framework/Headers/**/*.h', 'sources/extensions/ANAlipayResultCode.h'
   end
 
   s.subspec "Order" do |order|
-    order.source_files = 'sources/**/*.{h,m}'
+    order.source_files = 'sources/order/**/*.{h,m}'
     order.dependency 'AlipaySDK-2.0/Core'
     order.dependency 'OpenSSL'
     order.dependency 'PupaFoundation'

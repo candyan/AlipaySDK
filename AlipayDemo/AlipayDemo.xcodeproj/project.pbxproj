@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		755ABADE1BDA18A50011AE3F /* NSString+AlipaySigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */; settings = {ASSET_TAGS = (); }; };
+		755EC9D91BDE33B8007D1391 /* NSString+AlipayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EC9D61BDE33B8007D1391 /* NSString+AlipayOrder.m */; settings = {ASSET_TAGS = (); }; };
+		755EC9DA1BDE33B8007D1391 /* NSString+AlipaySigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 755EC9D81BDE33B8007D1391 /* NSString+AlipaySigner.m */; settings = {ASSET_TAGS = (); }; };
 		75E1B2F61BD8C80D006EF44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B2F51BD8C80D006EF44D /* AppDelegate.swift */; };
 		75E1B2F81BD8C80D006EF44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B2F71BD8C80D006EF44D /* ViewController.swift */; };
 		75E1B2FB1BD8C80D006EF44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2F91BD8C80D006EF44D /* Main.storyboard */; };
 		75E1B2FD1BD8C80D006EF44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2FC1BD8C80D006EF44D /* Assets.xcassets */; };
 		75E1B3001BD8C80D006EF44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75E1B2FE1BD8C80D006EF44D /* LaunchScreen.storyboard */; };
 		75E1B30B1BD8C80D006EF44D /* AlipayDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B30A1BD8C80D006EF44D /* AlipayDemoTests.swift */; };
-		75E1B31C1BD8DCF5006EF44D /* NSString+AlipayOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */; settings = {ASSET_TAGS = (); }; };
 		83B6B701006331C92D08D1F0 /* libPods-AlipayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8D51CBAE9B39F4858D2BAC /* libPods-AlipayDemo.a */; };
 		959DDBFBF8C1663D8B75E8C9 /* libPods-AlipayDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE14CC2CE12FDE234E197902 /* libPods-AlipayDemoTests.a */; };
 /* End PBXBuildFile section */
@@ -31,8 +31,11 @@
 
 /* Begin PBXFileReference section */
 		2A8D51CBAE9B39F4858D2BAC /* libPods-AlipayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlipayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		755ABADC1BDA18A50011AE3F /* NSString+AlipaySigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipaySigner.h"; sourceTree = "<group>"; };
-		755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipaySigner.m"; sourceTree = "<group>"; };
+		755EC9D51BDE33B8007D1391 /* NSString+AlipayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipayOrder.h"; sourceTree = "<group>"; };
+		755EC9D61BDE33B8007D1391 /* NSString+AlipayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipayOrder.m"; sourceTree = "<group>"; };
+		755EC9D71BDE33B8007D1391 /* NSString+AlipaySigner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipaySigner.h"; sourceTree = "<group>"; };
+		755EC9D81BDE33B8007D1391 /* NSString+AlipaySigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipaySigner.m"; sourceTree = "<group>"; };
+		755EC9DC1BDE346C007D1391 /* ANAlipayResultCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAlipayResultCode.h; sourceTree = "<group>"; };
 		75E1B2F21BD8C80C006EF44D /* AlipayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E1B2F51BD8C80D006EF44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75E1B2F71BD8C80D006EF44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,8 +47,6 @@
 		75E1B30A1BD8C80D006EF44D /* AlipayDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlipayDemoTests.swift; sourceTree = "<group>"; };
 		75E1B30C1BD8C80D006EF44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75E1B3161BD8DC8D006EF44D /* AlipayDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlipayDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		75E1B31A1BD8DCF5006EF44D /* NSString+AlipayOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AlipayOrder.h"; sourceTree = "<group>"; };
-		75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AlipayOrder.m"; sourceTree = "<group>"; };
 		8687300A9DC81DF49D2374E4 /* Pods-AlipayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6D6F6015E8CBD0D875E3A0D /* Pods-AlipayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemoTests/Pods-AlipayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B73C687E48188174830531F8 /* Pods-AlipayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlipayDemo/Pods-AlipayDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +83,25 @@
 				8687300A9DC81DF49D2374E4 /* Pods-AlipayDemoTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		755EC9D41BDE33B8007D1391 /* order */ = {
+			isa = PBXGroup;
+			children = (
+				755EC9D51BDE33B8007D1391 /* NSString+AlipayOrder.h */,
+				755EC9D61BDE33B8007D1391 /* NSString+AlipayOrder.m */,
+				755EC9D71BDE33B8007D1391 /* NSString+AlipaySigner.h */,
+				755EC9D81BDE33B8007D1391 /* NSString+AlipaySigner.m */,
+			);
+			path = order;
+			sourceTree = "<group>";
+		};
+		755EC9DB1BDE33D6007D1391 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				755EC9DC1BDE346C007D1391 /* ANAlipayResultCode.h */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		75E1B2E91BD8C80C006EF44D = {
@@ -131,10 +151,8 @@
 		75E1B3151BD8D649006EF44D /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				75E1B31A1BD8DCF5006EF44D /* NSString+AlipayOrder.h */,
-				75E1B31B1BD8DCF5006EF44D /* NSString+AlipayOrder.m */,
-				755ABADC1BDA18A50011AE3F /* NSString+AlipaySigner.h */,
-				755ABADD1BDA18A50011AE3F /* NSString+AlipaySigner.m */,
+				755EC9DB1BDE33D6007D1391 /* extensions */,
+				755EC9D41BDE33B8007D1391 /* order */,
 			);
 			name = sources;
 			path = ../../sources;
@@ -349,10 +367,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E1B31C1BD8DCF5006EF44D /* NSString+AlipayOrder.m in Sources */,
-				755ABADE1BDA18A50011AE3F /* NSString+AlipaySigner.m in Sources */,
+				755EC9D91BDE33B8007D1391 /* NSString+AlipayOrder.m in Sources */,
 				75E1B2F81BD8C80D006EF44D /* ViewController.swift in Sources */,
 				75E1B2F61BD8C80D006EF44D /* AppDelegate.swift in Sources */,
+				755EC9DA1BDE33B8007D1391 /* NSString+AlipaySigner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
