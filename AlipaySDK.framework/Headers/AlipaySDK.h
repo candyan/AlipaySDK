@@ -14,6 +14,17 @@
 
 
 #import "APayAuthInfo.h"
+typedef enum {
+    ALIPAY_TIDFACTOR_IMEI,
+    ALIPAY_TIDFACTOR_IMSI,
+    ALIPAY_TIDFACTOR_TID,
+    ALIPAY_TIDFACTOR_CLIENTKEY,
+    ALIPAY_TIDFACTOR_VIMEI,
+    ALIPAY_TIDFACTOR_VIMSI,
+    ALIPAY_TIDFACTOR_CLIENTID,
+    ALIPAY_TIDFACTOR_APDID,
+    ALIPAY_TIDFACTOR_MAX
+} AlipayTidFactor;
 
 typedef void(^CompletionBlock)(NSDictionary *resultDic);
 
@@ -59,6 +70,13 @@ typedef void(^CompletionBlock)(NSDictionary *resultDic);
  *  @return 当前版本字符串
  */
 - (NSString *)currentVersion;
+
+/**
+ *  当前版本号
+ *
+ *  @return tid相关信息
+ */
+- (NSString*)queryTidFactor:(AlipayTidFactor)factor;
 
 /**
  *  測試所用，realse包无效
