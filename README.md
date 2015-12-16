@@ -23,6 +23,10 @@ AlipaySDK
 > 
 >  iOS 9 出现支付时不能打开支付宝app反而调用 webview 的情况（支付宝app已安装），请在 `info.plist` 文件的 `LSApplicationQueriesSchemes` key 下增加 `alipay` 和 `alipayshare` 两个值。
 
+
+__请注意 `ANAlipayResultCode.h ` 并不是官方文件，是本人按照官方文档总结的返回码。如果不想使用请忽略__
+
+
 ###Changelog
 
 ####3.0.1.3 (2015-10-26) 非官方
@@ -31,7 +35,7 @@ AlipaySDK
 - 增加 `AlipaySDK-2.0/Order` subspec，其中包括支付订单的创建和RSA签名。如需使用：`pod 'AlipaySDK-2.0/Order'`(默认不包括此 subspec)。
 
 
-####3.0.1.2 (2015-10-13)
+####3.0.1-bitcode (2015-10-13)
 
 - 支持iOS9 bitcode
 
