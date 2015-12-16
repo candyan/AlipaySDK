@@ -29,6 +29,16 @@ __请注意 `ANAlipayResultCode.h ` 并不是官方文件，是本人按照官�
 
 ###Changelog
 
+####15.0.2 (2015-12-15)
+- iPad上支持跳钱包
+- 支持 iOS 6.0 编译
+
+####15.0.1 (2015-11-04)
+- 更新了安全模块
+
+> 从 3.x 变到 15.x 了。 我也是无语了 ╮(╯_╰)╭
+
+
 ####3.0.1.3 (2015-10-26) 非官方
 
 - 增加 ANAlipayResultCode.h 文件，其中包括支付宝文档中所有客户端返回码 - `ANAlipayResultCode`(注意：支付宝支付接口的 callback `resultDict` 中的 code 是字符串类型)。

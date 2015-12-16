@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "AlipaySDK-2.0"
-  s.version           = "3.0.1-bitcode"
+  s.version           = "15.0.2"
   s.summary           = "Alipay SDK for iOS. You can create alipay order or sign orders with `Order` subspec."
   s.homepage          = "https://b.alipay.com/newIndex.htm"
   s.license           = {
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
       LINCENSE
   }
   s.author            = { "AliPay" => "http://www.alipay.com/" }
-  s.platform          = :ios, '7.0'
+  s.platform          = :ios, '6.0'
   s.requires_arc      = true
 
   s.source            = { :git => "https://github.com/candyan/AlipaySDK.git", :tag => "#{s.version}" }
